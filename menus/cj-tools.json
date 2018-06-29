@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "cj-tools findFilesContaining",
+        "command": "cj-tools:findFilesContaining"
+      },
+      {
+        "label": "cj-tools findLineInFile",
+        "command": "cj-tofindLineInFile"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "cj-tools",
+          "submenu": [
+            {
+              "label": "Find Files Containing",
+              "command": "cj-tools:findFilesContaining"
+            },
+            {
+              "label": "Find Line In File",
+              "command": "cj-tools:findLineInFile"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

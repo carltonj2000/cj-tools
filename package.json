@@ -1,0 +1,19 @@
+{
+  "name": "cj-tools",
+  "main": "./lib/cj-tools",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "cj-tools:findFilesContaining",
+      "cj-tools:findLineInFile"
+    ]
+  },
+  "repository": "https://github.com/carltonj2000/cj-tools",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
